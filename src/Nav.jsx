@@ -5,8 +5,8 @@ export default function Nav({ active }) {
     { id: "crm", label: "Nye Kunder", emoji: "🤝" },
   ];
   const urls = {
-    mediemonitor: "http://localhost:5174",
-    mediebase: "http://localhost:5173",
+    mediemonitor: "https://kudos-mediemonitor.vercel.app",
+    mediebase: "https://kudos-mediebase.vercel.app",
     crm: "https://kudos-crm.vercel.app",
   };
   return (
