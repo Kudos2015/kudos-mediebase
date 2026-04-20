@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import AuthGuard from "./AuthGuard";
 import Nav from "./Nav";
 import { supabase } from "./supabase";
 
@@ -268,5 +269,6 @@ export default function App() {
       </Modal>}
     </div>
     </>
+    </AuthGuard>
   );
 }
